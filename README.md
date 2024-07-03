@@ -10,27 +10,33 @@
 
 
 
-```mkdir receiver
+```
+mkdir receiver
 cd receiver
 npm init -y
-npm install express amqplib winston winston-logstash```
+npm install express amqplib winston winston-logstash
+```
 
 <!-- Reload Systemd and Start Receiver Service: -->
 
 
 
-```sudo systemctl daemon-reload
+```
+sudo systemctl daemon-reload
 sudo systemctl start receiver
 sudo systemctl enable receiver
-sudo systemctl restart sender```
+sudo systemctl restart sender
+```
 
 #Initialize Node.js Project:
 
 
-```mkdir sender
+```
+mkdir sender
 cd sender
 npm init -y
-npm install express amqplib winston winston-logstash```
+npm install express amqplib winston winston-logstash
+```
 
 <!-- Reload Systemd and Start Sender Service: -->
 
