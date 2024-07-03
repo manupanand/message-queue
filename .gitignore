@@ -1,3 +1,4 @@
-.env
+/server-1/.env
+/server-2/.env
 /server-1/node_modules
 /server-2/node_modules
