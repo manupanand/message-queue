@@ -1,0 +1,19 @@
+{
+  "name": "recieverserver",
+  "version": "1.0.0",
+  "description": "this server is to recieve messages from servers suing rabbit mq",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "rabbit",
+    "mq",
+    "express"
+  ],
+  "author": "MANU P ANAND",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
