@@ -17,7 +17,7 @@ npm init -y
 npm install express amqplib winston winston-logstash
 ```
 
-<!-- Reload Systemd and Start Receiver Service: -->
+#Reload Systemd and Start Receiver Service:
 
 
 
@@ -38,10 +38,12 @@ npm init -y
 npm install express amqplib winston winston-logstash
 ```
 
-<!-- Reload Systemd and Start Sender Service: -->
+#Reload Systemd and Start Sender Service:
 
 
-```sudo systemctl daemon-reload
+```
+sudo systemctl daemon-reload
 sudo systemctl start sender
 sudo systemctl enable sender
-sudo systemctl restart sender```
+sudo systemctl restart sender
+```
