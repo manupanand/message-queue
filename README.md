@@ -19,10 +19,10 @@ npm install express amqplib winston winston-logstash```
 
 
 
-``sudo systemctl daemon-reload
+```sudo systemctl daemon-reload
 sudo systemctl start receiver
 sudo systemctl enable receiver
-sudo systemctl restart sender``
+sudo systemctl restart sender```
 
 #Initialize Node.js Project:
 
